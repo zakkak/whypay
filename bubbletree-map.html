@@ -14,11 +14,11 @@ title: Country and Regional Analysis
        new OpenSpending.BubbleMap({
           openspendingjs: '{{site.openspendingjs}}',
           query: {
-            dataset: 'ukgov-finances-cra',
-            cuts: ['year:2010'],
-            drilldowns: ['cofog1', 'cofog2', 'cofog3'],
-            breakdown: 'region',
-            rootNodeLabel: 'Total'
+            dataset: 'diavgeia',
+            drilldowns: ['to'],
+            cuts: ['year:2012'],
+            rootNodeLabel: 'Total',
+            breakdown: 'from',
           },
           bubbleStyles: {
 							'cofog-1':  BubbleTreeStyles.Cofog1,

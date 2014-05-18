@@ -60,10 +60,10 @@ title: The Daily Bread
     new OpenSpending.Aggregator({
       apiUrl: 'http://openspending.org/api',
       dataset: 'diavgeia',
-      drilldowns: ['To'],
+      drilldowns: ['to'],
       cuts: ['year:2012'],
       rootNodeLabel: 'Total',
-      breakdown: 'region',
+      breakdown: 'from',
       callback: function (data) { db_load_data(db, data); }
     });
   }
